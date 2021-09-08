@@ -14,7 +14,7 @@
 </head>
 <body>
     <header class = "header">
-        <nav class = "navigat">
+        <div class = "navigat">
             <div class = "header__menulogo">
                 <a href = "#">
                     <img src = "icons/main.svg" class = "menu icon" alt = "menu">
@@ -24,7 +24,7 @@
                     <img src = "icons/logo.svg" class = "logo icon" alt = "logo">
                 </a>
             </div>
-            <div class = "header__section__nav">
+            <nav class = "header__section__nav">
                 <div class = "header__navadd navadd">
                     <a href = "#">
                         <img src = "icons/call.svg" class = "call icon" alt = "call">
@@ -51,29 +51,41 @@
                         </a>
                     </label>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
     <div class = "page">
         <div class = "page__title">
             <div class = "title__text">Услуги и сервисы</div>
         </div>
         <div class = "page__subtitle">
-            <a href = "#" class = "">
-                <div class = "subtitle__name device first__name" alt = "repire_device">Ремонтируемые устройства</div>
-            </a>
-            <a href = "#" class = "">
-                <div class = "subtitle__name  brand " alt = "brand">Ремонтируемые бренды</div>
-           </a>
-           <a href = "#" class = "">
-                <div class = "subtitle__name price" alt = "price">Цены на услуги</div>
-           </a>
-           <a href = "#" class = "">
-                <div class = "subtitle__name addresses" alt = "addresses" >Адреса сервисных центров</div>
-           </a>
-           <a href = "#" class = "">
-                <div class = "subtitle__name hotprice" alt = "hotprice">Специальные цены</div>
-           </a>
+            <ul class = "subtitle__name">
+                <li class = "name__column1">
+                    <a href = "#" class = "">
+                        <div class = "subtitle__name device first__name" alt = "repire_device">Ремонтируемые устройства</div>
+                    </a>
+                </li>
+                <li class = "name__column2">
+                    <a href = "#" class = "">
+                        <div class = "subtitle__name  brand " alt = "brand">Ремонтируемые бренды</div>
+                    </a>
+                </li>
+                <li class = "name__column3">
+                    <a href = "#" class = "">
+                        <div class = "subtitle__name price" alt = "price">Цены на услуги</div>
+                    </a>
+                </li>
+                <li class = "name__column4">
+                    <a href = "#" class = "">
+                        <div class = "subtitle__name addresses" alt = "addresses" >Адреса сервисных центров</div>
+                    </a>
+                </li>
+                <li class = "name__column5">
+                    <a href = "#" class = "">
+                        <div class = "subtitle__name hotprice" alt = "hotprice">Специальные цены</div>
+                    </a>
+                </li>
+           </ul>
         </div>
         <div class = "reviews">
             <a href = "#" class = "reviews__button" alt = "Reviews">Отзывы</a>
@@ -81,14 +93,12 @@
         <div class = "page__content">
             <div class = "content__container">
                 <div class = "content__text">
-                    Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
+                    <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
                     Только у нас вы можете отремонтировать свой ноутбук Dell с официальной
-                        гарантией производителя.<br>
-                    <br>
-                    Мы успешно работаем с 1992 года и заслужили 
-                    репутацию надежного партнера, что подтверждает большое количество 
-                    постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, 
-                    в свою очередь, советуют нас родным и близким.
+                    гарантией производителя.</p><br><p>Мы успешно работаем с 1992 года и заслужили 
+                    репутацию надежного партнера, что подтверждает большое количество постоянных клиентов.
+                    Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас 
+                    родным и близким.</p>
                 </div>
                 <div class = "redmore__button">
                     <div class = "button">
